@@ -1,0 +1,44 @@
+body{ 
+	margin:0;
+	padding:0;
+	background-color:#f6f6f6; 
+}
+hgroup{
+	position:absolute;
+	top:15px;
+	left:15px;
+}
+h1,h2{
+	margin:0;
+	color:#333;
+	font-weight:normal;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+h1{	font-size:25pt; }
+h2{	font-size:11pt; }
+section{
+	position:absolute;
+	width:340px;
+	height:430px;
+	top:50%; left:20%;
+	margin-top:-215px;
+	margin-left:-170px;
+}
+footer{
+	position:absolute;
+	bottom:45px;
+	right:45px;
+	text-align:right;
+}
+footer h2{ font-weight:bold; }
+footer a{
+	display:block;
+	color:#666;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-decoration:none;	
+}
+footer a:hover{ color:#333; }
+
+*{
+	zoom: 1;
+}
